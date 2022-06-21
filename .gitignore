@@ -1,0 +1,10 @@
+cpp/Release
+cpp/bin
+cpp/obj
+*.cbp
+*.zip
+*.depend
+*.layout
+*.pyc
+numworks/__pycache__
+python/__pycache__
