@@ -412,7 +412,7 @@ int main()
         if(counter%10 == 0) {
             app.setTitle("Super jeu : FPS:"+to_string(int(1/delta)));
             counter = 0;
-            sort_sprites();
+            //sort_sprites();
         }
     }
 

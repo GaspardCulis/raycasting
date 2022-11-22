@@ -269,7 +269,7 @@ while 1:
             player_x -= cos(player_angle+pi/2)*delta
             player_y -= sin(player_angle+pi/2)*delta
     mouse_pos = pygame.mouse.get_pos()
-    player_angle += pi*delta*(mouse_pos[0]-old_mouse_pos[0])/10 * mouse_pass
+    player_angle += pi*delta*(mouse_pos[0]-old_mouse_pos[0])/30 * mouse_pass
     old_mouse_pos = mouse_pos
     mouse_pass = 1
     if abs(mouse_pos[0] - screen_size[0]/2) > screen_size[0]/2*0.8 or abs(mouse_pos[1] - screen_size[1]/2) > screen_size[1]/2*0.8:
